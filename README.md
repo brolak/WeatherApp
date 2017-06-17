@@ -3,22 +3,23 @@
 This project uses [Angular-Webpack-Boilerplate](https://github.com/neelbommisetty/Angular-Webpack-Boilerplate) and [Open Weather Map API](https://openweathermap.org/api).
 
 
-## Installation
+# Installation
 
 cd myApp
 
-# Install all dependencies
+## Install all dependencies
 yarn
 
-# To start dev server
+## To start dev server
 yarn start
 
-# To make production build
+## To make production build
 yarn build
 
-# To start production server
+## To start production server
 yarn prod
 
 ```
 Server is located at http://localhost:3000
+```
 
