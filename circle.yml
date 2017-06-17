@@ -1,0 +1,13 @@
+machine:
+  node:
+    version: 6.10.2
+test:
+  pre:
+    - yarn build:
+        background: true
+    - sleep 5
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: mati-weather-app
